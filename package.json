@@ -1,0 +1,21 @@
+{
+  "name": "colour-logger",
+  "version": "1.0.0",
+  "description": "Customised logging module that applies colours to console output",
+  "main": "index.js",
+  "keywords": [
+    "logger",
+    "colour"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kane Hooper",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.0"
+  },
+  "type": "module"
+}
