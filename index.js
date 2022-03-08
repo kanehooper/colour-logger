@@ -44,6 +44,4 @@ const endTimer = (label = 'default') => {
     console.timeEnd(label)
 }
 
-startTimer('Hi')
-endTimer('Hi')
-export {log, error, warning, assert, clear, objectDir, info, startTimer}
+export {log, error, warning, assert, clear, objectDir, info, startTimer, endTimer}

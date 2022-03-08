@@ -1,12 +1,19 @@
 {
   "name": "colour-logger",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Customised logging module that applies colours to console output",
   "main": "index.js",
   "keywords": [
     "logger",
     "colour"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanehooper/colour-logger.git"
+  },
+  "engines": {
+    "node": ">=12.17 <=16"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
@@ -17,5 +24,10 @@
   "dependencies": {
     "chalk": "^5.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kanehooper/colour-logger/issues"
+  },
+  "homepage": "https://github.com/kanehooper/colour-logger#readme",
+  "devDependencies": {}
 }
